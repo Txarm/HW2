@@ -12,5 +12,14 @@ public class Main {
     boolean g = a < c;
     char h = 63;
     System.out.println(g);
+
+    // Task 2
+
+        float boxerArtem = 78.2f;
+        float boxerDavid = 82.7f;
+        float boxersWeight = boxerArtem + boxerDavid;
+        System.out.println("Total boxers weight " + boxersWeight + " kg");
+        float boxersWeightDifference = boxerDavid - boxerArtem;
+        System.out.println("Difference between two boxers is " + boxersWeightDifference + " kg");
     }
 }
