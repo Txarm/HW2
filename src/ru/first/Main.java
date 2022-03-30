@@ -38,5 +38,15 @@ public class Main {
         int breakfastWeight = breakfast / kg;
         System.out.println("Total breakfast weight " + breakfastWeight + " kg");
 
+        // Task 4
+
+        short weight = 7;
+        weight *= 1000;
+        int diet250 = weight / 250;
+        System.out.println("It takes " + diet250 + " days to get fit by spending 250 g/per day");
+        int diet500 = weight / 500;
+        System.out.println("It takes " + diet500 + " days to get fit by spending 500 g/per day");
+        int diet = (diet250 + diet500) / 2;
+        System.out.println("It takes average " + diet + " days to get fit");
     }
 }
