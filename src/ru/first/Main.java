@@ -21,5 +21,22 @@ public class Main {
         System.out.println("Total boxers weight " + boxersWeight + " kg");
         float boxersWeightDifference = boxerDavid - boxerArtem;
         System.out.println("Difference between two boxers is " + boxersWeightDifference + " kg");
+
+        // Task 3
+
+        short bananas = 80;
+        short milk = 105;
+        short iceCream = 100;
+        short eggs = 70;
+        bananas *= 5;
+        milk *= 2;
+        iceCream *= 2;
+        eggs *= 4;
+        int breakfast = bananas + milk + iceCream + eggs;
+        System.out.println("Total breakfast weight " + breakfast + " g");
+        short kg = 1000;
+        int breakfastWeight = breakfast / kg;
+        System.out.println("Total breakfast weight " + breakfastWeight + " kg");
+
     }
 }
