@@ -48,5 +48,27 @@ public class Main {
         System.out.println("It takes " + diet500 + " days to get fit by spending 500 g/per day");
         int diet = (diet250 + diet500) / 2;
         System.out.println("It takes average " + diet + " days to get fit");
+
+        // Task 5
+
+        int mariaMonth = 67760;
+        int denisMonth = 83690;
+        int kristinaMonth = 76230;
+        int mariaNewMonth = mariaMonth + (mariaMonth/10);
+        int denisNewMonth = denisMonth + (denisMonth/10);
+        int kristinaNewMonth = kristinaMonth + (kristinaMonth/10);
+        int year = 12;
+        int mariaYear = mariaMonth * year;
+        int denisYear = denisMonth * year;
+        int kristinaYear = kristinaMonth * year;
+        int mariaYearNew = mariaNewMonth * year;
+        int denisYearNew = denisNewMonth * year;
+        int kristinaYearNew = kristinaNewMonth * year;
+        int mariaYearDifference = mariaYearNew - mariaYear;
+        int denisYearDifference = denisYearNew - denisYear;
+        int kristinaYearDifference = kristinaYearNew - kristinaYear;
+        System.out.println("Now Maria earn " + mariaNewMonth + " rubles. Annual income increased by " + mariaYearDifference + " rubles.");
+        System.out.println("Now Denis earn " + denisNewMonth + " rubles. Annual income increased by " + denisYearDifference + " rubles.");
+        System.out.println("Now Maria earn " + kristinaNewMonth + " rubles. Annual income increased by " + kristinaYearDifference + " rubles.");
     }
 }
